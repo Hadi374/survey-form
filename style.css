@@ -65,9 +65,20 @@ label {
     padding: 8px;
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 800px) {
     .first {
-        width: 80%;
+        width: 65%;
+        padding: 16px;
+    }
+    #title {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 400px) {
+    .first {
+        width: 90%;
         padding: 8px;
     }
     #title {
